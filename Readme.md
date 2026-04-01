@@ -150,11 +150,3 @@ Cuando ya tienes una base estable y quieres:
 - Adaptador/emulación Bluetooth: `darthcloud/BlueRetro`
 
 ---
-
-## Cómo publicar esto en GitHub
-
-1. Usa este `README.md` como página principal del repo.
-2. Mantén los `.ino` en `firmware/`.
-3. Conserva el sketch original en `upstream/` para trazabilidad.
-4. Enlaza desde el README a `docs/` para montaje, validación y troubleshooting.
-5. En la descripción del repo aclara que es una **variante documentada** del upstream original, no un reemplazo oficial.
