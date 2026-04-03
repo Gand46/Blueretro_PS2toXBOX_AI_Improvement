@@ -1,5 +1,25 @@
 # Changelog de esta variante documentada
 
+## v1.0.2-env-setup
+
+Instalación de toolchain y dependencias para validar compilación real de ambos firmwares.
+
+### Incluye
+
+- nuevo documento `docs/ENV_SETUP_AND_BUILD_VALIDATION.md`
+- procedimiento reproducible de instalación de entorno
+- registro de compilación exitosa para `hardened` y `respuesta_rapida`
+
+## v1.0.1-docs-auditoria
+
+Auditoría técnica integral del repositorio, con hallazgos y backlog de optimizaciones priorizadas.
+
+### Incluye
+
+- nuevo informe `docs/AUDITORIA_TECNICA_2026-04-03.md`
+- veredicto técnico de código, dependencias y documentación
+- recomendaciones de hardening y trazabilidad de dependencias
+
 ## v1.0.0-docs
 
 Primera publicación estructurada de la integración documentada.

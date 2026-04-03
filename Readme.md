@@ -64,6 +64,8 @@ Este paquete deja documentado qué se cambió, por qué se cambió y cuál es el
 - `docs/VALIDATION_PLAN.md`
 - `docs/TROUBLESHOOTING.md`
 - `docs/REFERENCES.md`
+- `docs/AUDITORIA_TECNICA_2026-04-03.md`
+- `docs/ENV_SETUP_AND_BUILD_VALIDATION.md`
 - `CHANGELOG.md`
 
 ---
