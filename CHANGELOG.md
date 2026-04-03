@@ -1,5 +1,15 @@
 # Changelog de esta variante documentada
 
+## v1.0.3-ack-evaluation
+
+Evaluación de viabilidad para implementar ACK real en PS2 y comparación de librerías basadas en GitHub.
+
+### Incluye
+
+- nuevo documento `docs/ACK_STRATEGY_AND_LIBRARY_EVALUATION.md`
+- estrategia recomendada: PoC con `PsxNewLib` rama `devel`
+- ampliación del plan de validación para pruebas ACK
+
 ## v1.0.2-env-setup
 
 Instalación de toolchain y dependencias para validar compilación real de ambos firmwares.

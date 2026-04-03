@@ -70,3 +70,10 @@ Se documentó una ejecución real de instalación y compilación en:
 - `docs/ENV_SETUP_AND_BUILD_VALIDATION.md`
 
 Incluye comandos ejecutados, commits de dependencias usadas y resultado de build de ambos firmwares.
+
+
+## Evaluación de ACK y migración de librería
+
+Análisis técnico comparativo en:
+
+- `docs/ACK_STRATEGY_AND_LIBRARY_EVALUATION.md`

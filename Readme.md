@@ -66,6 +66,7 @@ Este paquete deja documentado qué se cambió, por qué se cambió y cuál es el
 - `docs/REFERENCES.md`
 - `docs/AUDITORIA_TECNICA_2026-04-03.md`
 - `docs/ENV_SETUP_AND_BUILD_VALIDATION.md`
+- `docs/ACK_STRATEGY_AND_LIBRARY_EVALUATION.md`
 - `CHANGELOG.md`
 
 ---
