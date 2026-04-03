@@ -77,3 +77,27 @@ Incluye comandos ejecutados, commits de dependencias usadas y resultado de build
 Análisis técnico comparativo en:
 
 - `docs/ACK_STRATEGY_AND_LIBRARY_EVALUATION.md`
+
+
+## Dependencias obligatorias para ACK PoC
+
+Para `firmware/PS2toXBOX_blueretro_ack_poc.ino` se validó la siguiente matriz exacta:
+
+- `PsxNewLib` rama `devel` commit `a69a65245478bc027150a199c099c780ba7dcb3e`
+- `DigitalIO` commit `00fa53d`
+- `OGXBOX-PAD` commit `5160fd1`
+- toolchain:
+  - `arduino-builder 1.3.25`
+  - `avr-gcc 7.3.0`
+
+### Instalación de librerías (referencia)
+
+```bash
+git clone --depth 1 --branch devel https://github.com/SukkoPera/PsxNewLib.git
+git clone --depth 1 https://github.com/greiman/DigitalIO.git
+git clone --depth 1 https://github.com/eolvera85/OGXBOX-PAD.git
+```
+
+### Nota crítica
+
+La PoC ACK **no** usa `PsxControllerBitBang` del `master`; depende del driver `PsxDriverHwSpiWithAck` presente en `devel`.

@@ -44,10 +44,29 @@ Cualquier build experimental que:
 - insista en pressure buttons como camino principal para todo
 - haya mostrado inputs espontáneos en pruebas
 
-## 4. Estrategia de publicación sugerida
+## 5. Estrategia de publicación sugerida
 
 Si subes esto a GitHub:
 
 - marca la variante endurecida como `recommended`
 - deja la rápida como `optional`
 - documenta claramente que el comportamiento puede variar según el mando Bluetooth
+
+
+## 6. Variante ACK (PoC experimental)
+
+### `PS2toXBOX_blueretro_ack_poc.ino`
+
+Variante experimental para validar sincronización por ACK usando `PsxNewLib` rama `devel` y driver `PsxDriverHwSpiWithAck`.
+
+#### Requisitos
+
+- wiring HW SPI del ATmega32u4 (líneas SPI nativas por ICSP)
+- pin ATT dedicado
+- pin ACK dedicado
+- librería `PsxNewLib` rama `devel`
+
+#### Limitaciones actuales
+
+- enfocada a estabilidad de lectura (no incluye manejo de rumble en esta PoC)
+- no debe reemplazar la variante `hardened` hasta completar pruebas E del plan de validación

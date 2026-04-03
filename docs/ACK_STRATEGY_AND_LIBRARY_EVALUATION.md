@@ -130,3 +130,19 @@ Promover ACK a baseline solo si:
 1. Reservar en documentación de cableado una línea dedicada para ACK (aunque la rama actual no la consuma todavía).
 2. Añadir sección de “Matriz ACK PoC” en el plan de validación.
 3. Mantener pinning de commit de librería para separar claramente `master` vs `devel` durante ensayos.
+
+---
+
+## Estado de implementación en este repositorio
+
+Se implementó una primera versión funcional en:
+
+- `firmware/PS2toXBOX_blueretro_ack_poc.ino`
+
+Características de la implementación:
+
+- usa `PsxDriverHwSpiWithAck<PIN_PS2_ATT, PIN_PS2_ACK>`
+- mantiene mapeo digital conservador para botones
+- conserva sticks analógicos
+- añade reconexión y limpieza de estado Xbox
+- deja rumble fuera de alcance en esta PoC para aislar validación de ACK

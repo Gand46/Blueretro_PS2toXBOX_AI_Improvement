@@ -1,5 +1,15 @@
 # Changelog de esta variante documentada
 
+## v1.0.4-ack-implementation-poc
+
+Implementación inicial de firmware ACK PoC y detalle de dependencias exactas para reproducir build experimental.
+
+### Incluye
+
+- nuevo firmware `firmware/PS2toXBOX_blueretro_ack_poc.ino`
+- actualización de guías de variantes y puesta en marcha para ACK
+- matriz detallada de dependencias/librerías requeridas para ACK PoC
+
 ## v1.0.3-ack-evaluation
 
 Evaluación de viabilidad para implementar ACK real en PS2 y comparación de librerías basadas en GitHub.
