@@ -46,6 +46,9 @@ Este paquete deja documentado qué se cambió, por qué se cambió y cuál es el
 - `firmware/PS2toXBOX_ajuste_respuesta_rapida.ino`  
   Variante alternativa orientada a una sensación de pulsación más seca. Debe probarse **solo después** de validar la variante endurecida.
 
+- `firmware/PS2toXBOX_blueretro_ack_poc.ino`  
+  Variante experimental para validar ACK real (requiere `PsxNewLib` rama `devel` y cableado ACK + SPI hardware).
+
 ### Referencia
 
 - `upstream/PS2toXBOX_original.ino`  
@@ -64,6 +67,9 @@ Este paquete deja documentado qué se cambió, por qué se cambió y cuál es el
 - `docs/VALIDATION_PLAN.md`
 - `docs/TROUBLESHOOTING.md`
 - `docs/REFERENCES.md`
+- `docs/AUDITORIA_TECNICA_2026-04-03.md`
+- `docs/ENV_SETUP_AND_BUILD_VALIDATION.md`
+- `docs/ACK_STRATEGY_AND_LIBRARY_EVALUATION.md`
 - `CHANGELOG.md`
 
 ---

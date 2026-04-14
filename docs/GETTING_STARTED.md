@@ -48,3 +48,13 @@ Si la variante endurecida funciona bien pero sientes los botones lentos:
 
 - prueba `firmware/PS2toXBOX_ajuste_respuesta_rapida.ino`
 - documenta qué mando Bluetooth y qué firmware BlueRetro estabas usando
+
+
+## 7. PoC ACK (experimental)
+
+Si quieres validar ACK real:
+
+- usa `firmware/PS2toXBOX_blueretro_ack_poc.ino`
+- cablea ATT + ACK y SPI hardware del 32u4
+- instala `PsxNewLib` en rama `devel` (no `master`)
+- ejecuta bloque **E. Pruebas ACK (PoC)** de `docs/VALIDATION_PLAN.md`

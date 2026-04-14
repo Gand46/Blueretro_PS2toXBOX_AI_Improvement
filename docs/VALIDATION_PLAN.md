@@ -55,3 +55,18 @@ Aprobar una build solo si:
 - no quedan botones pegados al desconectar
 - no hay arrastre molesto de pulsaciones
 - el rumble no provoca pérdida de lectura
+
+
+### E. Pruebas ACK (PoC)
+
+Para una rama experimental con ACK habilitado:
+
+1. verificar wiring ACK y nivel lógico a 3.3 V
+2. repetir bloques A/B/C/D completos
+3. registrar lecturas fallidas por minuto
+4. registrar reconexiones forzadas por hora
+5. comparar contra baseline sin ACK
+
+Se recomienda seguir la estrategia definida en:
+
+- `docs/ACK_STRATEGY_AND_LIBRARY_EVALUATION.md`
